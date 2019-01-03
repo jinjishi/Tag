@@ -1,0 +1,18 @@
+# Tag
+package intership2.dao;
+public class Tag{
+public String Tagname;
+public String Tagid;
+public String GetterTagname() {
+	return this.Tagname;
+}
+public void SetterTagname(String Tagname) {
+	this.Tagname=Tagname;
+}
+public String GetterTagid() {
+	return this.Tagid;
+}
+public void SetterTagid(String Tagid) {
+	this.Tagid=Tagid;
+}
+}
