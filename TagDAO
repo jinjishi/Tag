@@ -1,0 +1,12 @@
+package intership2.dao;
+import java.lang.Exception;
+import java.util.ArrayList;
+
+import intership2.dao.Tag;
+public interface TagDAO {
+	public boolean addTag(Tag tag) throws Exception; 
+	public boolean delTag(String sql) throws Exception; 
+	public boolean updateTag(String sql) throws Exception;
+	public ArrayList<Tag> getTag(String sql) throws Exception;
+
+}
